@@ -1,0 +1,121 @@
+{
+  "searchPlaceholder": {
+    "message": "试试 你从来没有在浏览器中使用的 \\d ?"
+  },
+  "searchButton": {
+    "message": "正则搜索"
+  },
+  "caseSensitive": {
+    "message": "区分大小写"
+  },
+  "wholeWord": {
+    "message": "全词匹配"
+  },
+  "loopSearch": {
+    "message": "循环查找"
+  },
+  "searchMode": {
+    "message": "查找模式："
+  },
+  "normalMode": {
+    "message": "普通"
+  },
+  "extendedMode": {
+    "message": "扩展(\\n,\\r,\\t\\0,\\u...)"
+  },
+  "regexMode": {
+    "message": "正则表达式"
+  },
+  "findNext": {
+    "message": "查找下一个(F3)"
+  },
+  "findPrev": {
+    "message": "查找上一个(F4)"
+  },
+  "count": {
+    "message": "计数(C)"
+  },
+  "clearResults": {
+    "message": "清空结果"
+  },
+  "close": {
+    "message": "关闭"
+  },
+  "noSearchText": {
+    "message": "请输入搜索内容"
+  },
+  "searching": {
+    "message": "正在搜索... $PROGRESS$%",
+    "placeholders": {
+      "progress": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchFailed": {
+    "message": "搜索失败: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "matchesFound": {
+    "message": "找到 $COUNT$ 个匹配",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "currentMatch": {
+    "message": "当前: $CURRENT$/$TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "regexHelpTitle": {
+    "message": "正则表达式帮助"
+  },
+  "regexDigit": {
+    "message": "数字 (\\d)"
+  },
+  "regexNewline": {
+    "message": "换行符 (\\r\\n)"
+  },
+  "regexWhitespace": {
+    "message": "任意空白字符 (\\s)"
+  },
+  "regexLineStart": {
+    "message": "行首字符 (*)"
+  },
+  "regexLineEnd": {
+    "message": "行尾字符 ($)"
+  },
+  "regexAnyChar": {
+    "message": "任意字符 (.)"
+  },
+  "regexWordChar": {
+    "message": "字母数字 (\\w)"
+  },
+  "regexChinese": {
+    "message": "所有中文字符 ([\\p{Script=Han}])"
+  },
+  "regexAlphaNum": {
+    "message": "字母和数字 ([a-zA-Z0-9])"
+  },
+  "regexOneOrMore": {
+    "message": "至少一个 (+)"
+  },
+  "extensionName": {
+    "message": "简易正则搜索"
+  },
+  "extensionDescription": {
+    "message": "为网页提供增强的正则表达式搜索功能。快捷键：Ctrl+Shift+F（打开/关闭），F3（查找下一个），F4（查找上一个），ESC（关闭），回车（搜索/查找下一个），Shift+回车（查找上一个）"
+  }
+} 

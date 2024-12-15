@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="128" height="128" viewBox="0 0 128 128" xmlns="http://www.w3.org/2000/svg">
+    <!-- 背景圆 -->
+    <circle cx="64" cy="64" r="60" fill="#2196F3" />
+    
+    <!-- 放大镜 -->
+    <g transform="translate(30, 30) scale(0.85)">
+        <!-- 放大镜圈 -->
+        <circle cx="40" cy="40" r="25" 
+            fill="none" 
+            stroke="white" 
+            stroke-width="10"
+            stroke-linecap="round" />
+        
+        <!-- 放大镜手柄 -->
+        <line x1="58" y1="58" x2="75" y2="75" 
+            stroke="white" 
+            stroke-width="10" 
+            stroke-linecap="round" />
+    </g>
+    
+    <!-- 正则表达式符号 -->
+    <g transform="translate(38, 38)">
+        <text x="12" y="22" 
+            font-family="Monaco, Consolas, monospace" 
+            font-size="26" 
+            fill="white" 
+            font-weight="bold"
+            style="paint-order: stroke;
+                   stroke: #2196F3;
+                   stroke-width: 4px;">.*</text>
+    </g>
+    
+    <!-- 装饰性圆环 -->
+    <circle cx="64" cy="64" r="58" 
+        fill="none" 
+        stroke="white" 
+        stroke-width="3" 
+        stroke-opacity="0.4" />
+</svg> 

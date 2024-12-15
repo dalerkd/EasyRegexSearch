@@ -1,0 +1,121 @@
+{
+  "searchPlaceholder": {
+    "message": "Try \\d that you've never used in browser search before?"
+  },
+  "searchButton": {
+    "message": "Regex Search"
+  },
+  "caseSensitive": {
+    "message": "Case Sensitive"
+  },
+  "wholeWord": {
+    "message": "Whole Word"
+  },
+  "loopSearch": {
+    "message": "Loop Search"
+  },
+  "searchMode": {
+    "message": "Search Mode:"
+  },
+  "normalMode": {
+    "message": "Normal"
+  },
+  "extendedMode": {
+    "message": "Extended(\\n,\\r,\\t\\0,\\u...)"
+  },
+  "regexMode": {
+    "message": "Regular Expression"
+  },
+  "findNext": {
+    "message": "Find Next(F3)"
+  },
+  "findPrev": {
+    "message": "Find Previous(F4)"
+  },
+  "count": {
+    "message": "Count(C)"
+  },
+  "clearResults": {
+    "message": "Clear Results"
+  },
+  "close": {
+    "message": "Close"
+  },
+  "noSearchText": {
+    "message": "Please enter search text"
+  },
+  "searching": {
+    "message": "Searching... $PROGRESS$%",
+    "placeholders": {
+      "progress": {
+        "content": "$1"
+      }
+    }
+  },
+  "searchFailed": {
+    "message": "Search failed: $ERROR$",
+    "placeholders": {
+      "error": {
+        "content": "$1"
+      }
+    }
+  },
+  "matchesFound": {
+    "message": "Found $COUNT$ matches",
+    "placeholders": {
+      "count": {
+        "content": "$1"
+      }
+    }
+  },
+  "currentMatch": {
+    "message": "Current: $CURRENT$/$TOTAL$",
+    "placeholders": {
+      "current": {
+        "content": "$1"
+      },
+      "total": {
+        "content": "$2"
+      }
+    }
+  },
+  "regexHelpTitle": {
+    "message": "Regular Expression Help"
+  },
+  "regexDigit": {
+    "message": "Digit (\\d)"
+  },
+  "regexNewline": {
+    "message": "Newline (\\r\\n)"
+  },
+  "regexWhitespace": {
+    "message": "Any whitespace (\\s)"
+  },
+  "regexLineStart": {
+    "message": "Line start (*)"
+  },
+  "regexLineEnd": {
+    "message": "Line end ($)"
+  },
+  "regexAnyChar": {
+    "message": "Any character (.)"
+  },
+  "regexWordChar": {
+    "message": "Word character (\\w)"
+  },
+  "regexChinese": {
+    "message": "Chinese characters ([\\p{Script=Han}])"
+  },
+  "regexAlphaNum": {
+    "message": "Letters and numbers ([a-zA-Z0-9])"
+  },
+  "regexOneOrMore": {
+    "message": "One or more (+)"
+  },
+  "extensionName": {
+    "message": "Easy Regex Search"
+  },
+  "extensionDescription": {
+    "message": "Enhanced search with regex support for web pages. Shortcuts: Ctrl+Shift+F (Open/Close), F3 (Find Next), F4 (Find Previous), ESC (Close), Enter (Search/Find Next), Shift+Enter (Find Previous)"
+  }
+} 
