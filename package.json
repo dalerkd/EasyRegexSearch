@@ -1,0 +1,11 @@
+{
+  "name": "easy-regex-search",
+  "version": "1.0.0",
+  "description": "Chrome extension for enhanced regex search",
+  "scripts": {
+    "generate-icons": "node convert_icons.js"
+  },
+  "dependencies": {
+    "sharp": "^0.32.6"
+  }
+} 
